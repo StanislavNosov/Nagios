@@ -7,8 +7,8 @@
 # 	 This check is written only for SNMP v3 but could be modified easily. Check ifAperStatus & ifAdminStatus
 
 NAGIOSPLUGSDIR=/usr/local/libexec/nagios
-#snmpwalk -v 3 -u <USERNAME>  -l authPriv -a SHA -A '<auth_pass>' -x AES -X '<priv_pass>'  <ip_address>
-COMM="-P 3 -U <USERNAME> -L <auth> -a SHA -A <auth_pass> -x AES -X <priv_pass>"
+#snmpwalk -v 3 -u <USERNAME>  -l authPriv -a SHA -A '<pass1>' -x AES -X '<pass2>'  <ip_address>
+COMM="-P 3 -U <USERNAME> -L <auth> -a SHA -A <pass1> -x AES -X <pass2>"
 
 HOST=$1
 INDEX=$2
