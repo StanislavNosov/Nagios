@@ -8,7 +8,7 @@
 
 NAGIOSPLUGSDIR=/usr/local/libexec/nagios
 #snmpwalk -v 3 -u <USERNAME>  -l authPriv -a SHA -A '<auth_pass>' -x AES -X '<priv_pass>'  <ip_address>
-COMM="-P 3 -U <USERNAME> -L authPriv -a SHA -A <auth_pass> -x AES -X <priv_pass>"
+COMM="-P 3 -U <USERNAME> -L <auth> -a SHA -A <auth_pass> -x AES -X <priv_pass>"
 
 HOST=$1
 INDEX=$2
