@@ -1,2 +1,2 @@
 # nagios-plugins
-test 12
+test 1
