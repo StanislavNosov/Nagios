@@ -1,2 +1,2 @@
 # nagios-plugins
-test 1
+test master
